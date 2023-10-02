@@ -1,0 +1,136 @@
+
+.sticky-top{
+    background-color: #fcfafb;
+
+}
+.login{
+    background-color: rgb(238, 47, 14);
+    border-radius: 15px;
+    border: 1px solid red;
+    
+    color: white !important  ; 
+}
+
+
+
+.navbar-toggler{
+    border: 1px solid #0dcaf0;
+}
+.nav-link{
+    color: rgb(105, 102, 102);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.nav-link:hover{
+    color: rgb(245, 245, 238);
+    background-color: rgb(75, 73, 73);
+    /* border: 0.8px solid; */
+    /* padding: 6px; */
+}
+
+
+.something ul{
+display: none;
+list-style: none;
+border: 1px solid rgb(180, 178, 178);
+}
+.something:hover ul{
+ display: block;
+}
+.slider{
+    background-color: #ffe4f3;
+    
+}
+.slider1{
+    
+            width: 100%;
+            height: 550px;
+            background-image: url(./image/IMG-20230914-WA0008.jpg);
+            background-position: 40% 30%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+}
+.slider2 {
+    
+            width: 100%;
+            height: 550px;
+            background-image: url(./image/istockphoto-1006692182-170667a.webp);
+            background-position: 40% 30%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+}
+
+.slider3{
+
+        width: 100%;
+        height: 550px;
+        background-image: url(./image/IMG-20230914-WA0014.jpg);
+        background-position: 40% 30%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+}
+
+
+.aboutus{
+    background-color:#f7df96;
+    padding-bottom: 5%;
+}
+.card{
+   
+cursor: pointer;
+/* transform: scale(1.03); */
+transition:  1s;
+}
+
+.card:hover{
+ background-color: rgb(247, 245, 245);
+
+
+transform: scale(1.03);
+}
+
+.gallery{
+background-color: #c4c1a4;
+padding-bottom: 5%;
+}
+
+
+.imagee img{
+height: 400px;
+opacity: 0.7;
+
+}
+.imagee img:hover{
+    opacity: 1;
+     }
+
+
+
+.event{
+    background-color: #c3c4c7;
+padding-bottom: 5%;
+}
+
+.services{
+    background-color:#73afc2;
+    padding-bottom: 5%;
+}
+
+ .imagee1 img{
+    height: 400px;
+    opacity: 0.5;
+    
+}
+
+.services p{
+    font-size: 18px;
+}
+
+
+
+
+
+

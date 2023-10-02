@@ -1,0 +1,29 @@
+.heading{
+    margin-top: 2%;
+}
+
+
+.container-fluid {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+     
+}
+
+.container-fluid img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    .container-fluid img {
+        height: 100%;
+        width: 100%; 
+    }
+}
